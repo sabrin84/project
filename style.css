@@ -1,0 +1,964 @@
+
+/*    font-family: 'Abril Fatface', cursive;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+/*Common-Tag*/
+body{
+    font-family: 'Ubuntu', sans-serif; 
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+/*Top-Header Section Start*/
+.top_header{
+    background: #0f2f44;
+    color: white;
+    padding: 17px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.leftright .welcome, .opening{
+    width: 50%;
+}
+.leftright .opening{
+    text-align: right;
+}
+header{
+    border-bottom: 2px solid #d5d6d6;
+    
+}
+/*Top-Header Section End*/
+
+
+
+
+/*navigation Section Start*/
+.navigation{
+    align-items: center;
+    padding: 25px 0;
+}
+
+
+.navmenu ul{ 
+   justify-content: flex-end;
+   align-items: center;
+   
+}
+
+
+.navmenu ul li:hover > a{
+    background: #fff9e6;
+}
+
+   
+    .navmenu ul li ul{
+        position: absolute;
+        display: none;
+        transition: .6s;
+        
+    }
+   
+    .navmenu ul li ul li a{
+        text-align: center;
+        color: white;
+        text-transform: capitalize;
+
+        
+    }
+    .navmenu ul li:hover > ul{
+        display: block;
+        background: #abb0b0;
+        
+    }
+   
+.navmenu ul li a{
+   
+    padding: 19px 15px;
+    text-align: right;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    transition: .6s;
+    text-transform: capitalize;
+    display: block;
+}
+
+.navigation .logo{
+    width: 30%; 
+}
+
+.navigation .navmenu{
+    width: 70%;
+    justify-content: center;
+}
+.navmenu ul li > i{
+    margin: 0 10px;
+    border: 1px solid #999999;
+    border-radius: 50%;
+    color: #999999;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+ 
+}
+
+
+/*navigation Section End*/
+
+
+
+/*banner start*/
+#banner h1{
+    line-height: 65%;
+    margin-bottom: 30px;
+}
+
+#banner{
+    background: #e0eeff url(../image/object_bg.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    /*background-position: right bottom;*/
+    background-position: 640px bottom;
+    background-size: 55%;  
+}
+
+#banner .banner_content{
+    width: 500px;   
+}
+
+#banner .row{
+    height: 100%;
+    align-items: center;
+}
+
+#banner .row .banner_content h1 small{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    color: #0f2f44; 
+}
+
+#banner .row .banner_content h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    color: #0f2f44;
+    text-transform: uppercase;
+}
+#banner .row .banner_content h4{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #8484bf;
+    letter-spacing: 14px;
+}
+#banner .row .banner_content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+    
+}
+
+#banner .banner_content a{
+    padding: 12px 18px;
+    margin-right: 18px;
+    background: #8383bf;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .5s;
+    
+}
+#banner a:hover{
+    background: rgb(213, 221, 235);
+}
+
+#banner button{
+
+width: 45px;
+height: 45px;
+line-height: 45px;
+text-align: center;
+border: none;
+background: white;
+border-radius: 50%;
+cursor: pointer;   
+}
+/*banner End*/
+
+
+
+
+
+
+
+
+
+
+
+/*About Us Section Start*/
+#about_section{
+    height: 697px;
+}
+#about_section .aboutarea{
+    height: 100%;
+    padding: 100px 0px;
+    text-align: right;
+    
+   
+}
+#about_section .aboutarea .aboutcontent{
+    width: 100%;
+    line-height: 170%;
+    
+}
+#about_section .aboutarea {
+    width: 50%;
+    background-image: url(../image/Bizzency_2nd\ bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 50%;
+    
+}
+.secondp{
+    margin-left: 4%;
+    line-height: 170%;
+}
+#about_section a{
+
+margin-top: 20px;
+margin-right: 14px;
+padding: 14px 19px;
+border-radius: 4%;
+color: #0f2f44;
+text-transform: capitalize;
+font-size: 20px;
+font-family: 'Ubuntu', sans-serif;
+font-weight: 500;
+transition: .6s;
+}
+
+#about_section .aboutcontent a:hover{
+    background: rgb(218, 249, 187);
+}
+.firsta{
+    background-color: #ffc712;
+}
+
+
+#about_section .aboutcontent p{
+    font-size: 16;
+    font-family: 'Open Sans', sans-serif;;
+    font-weight: 400;
+    color: #0f2f44;
+}
+#about_section .aboutcontent h5{
+    font-size: 14;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #0f2f44;
+}
+#about_section .aboutcontent h2{
+    font-size: 32;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    color: #0f2f44;
+}
+
+/*About Us Section End*/
+
+
+
+
+/*Our Skill Section Start*/
+
+#ourskill{
+    background-color: white;
+    height: 585px;
+    display: flex;
+}
+
+.contain{
+    width: 1170px;
+}
+.leftimg{
+    width: 50%;
+    height: 100%;
+    padding-left: 110px;
+}
+
+#ourskill .contain{
+width: 60%;
+}
+.skillcontent{
+    width: 560px;
+    text-align: right;
+    
+}
+#ourskill .contain .skillcontent h5{
+    font-size: 14;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #0f2f44;
+}
+#ourskill .contain .skillcontent h2{
+    font-size: 32;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    color: #0f2f44;
+}
+#ourskill .contain .skillcontent p{
+    font-size: 16;
+    font-family: 'Open Sans', sans-serif;;
+    font-weight: 400;
+    color: #0f2f44;
+}
+
+
+/*Skills*/
+.manyskills{
+    margin-left: 13%;
+    padding-left: 10%;
+    padding-top: 4%;
+   
+}
+
+.manyskills h3{
+    text-align: right;
+    color: #0f2f44;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.backgroundhundred{
+    background-color: #f2f2f1; 
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 15px;
+   border: none 1px;
+  
+    
+ }
+ 
+.ninety{
+    width: 90%;
+    background: #2a4896;
+    text-align: left;
+    
+    color: white;
+   
+ }
+.eightyfive{
+    width: 85%;
+    background: #5d3b15;
+    text-align: left;
+    color: white;
+    
+ }
+.seventyfive{
+    width: 70%;
+    background: #344a1f;
+    text-align: left;
+    color: white;
+ }
+ .eighty{
+    width: 80%;
+    background: #392960;
+    text-align: left;
+    color: white;
+    
+ }
+ /*Skills End*/
+ /*Our Skill Section End*/
+
+
+
+
+  /*Service Section start*/
+ #service{
+    height: 425px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #f5f5f5;
+    text-align: center;
+ }
+ 
+.serviceitem{
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.serviceitem img{
+    display: inline;
+    width: 60px;
+    height: 60px;
+}
+.serviceicon{
+    background: #e9e9e9;
+}
+.serviceinfo{
+    width: 270px;
+    background: #eeeeee;
+}
+.container.item{
+    justify-content: center;
+   height: 100%;
+   
+}
+.serviceitem{
+    padding: 15px;
+}
+
+.item{
+    padding-top: 4%;
+}
+.serviceinfo{
+    padding: 15px 5px;
+    text-align: left;
+}
+.serviceicon{
+    padding-top: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+
+
+/*Overlay*/
+.overlay img{
+display: inline;
+padding-top: 30px;
+width: 50px;
+height: 70px;
+}
+.overlay{
+    position: absolute;
+    align-items: center;
+    background-color: #0f2f44;
+    inset: 15px;
+    transition: .7s;
+    /*opacity: 0;
+    visibility: hidden;*/
+    transform: scale(0);
+    transform-origin: bottom top;
+}
+.serviceitem{
+    position: relative;
+    
+    
+}
+#service .serviceitem:hover .overlay{
+/*opacity: 1;
+visibility: visible;*/
+transform: scale(1);
+}
+
+/*overlay end*/
+
+#service h5{
+    font-size: 14;
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+    color: #0f2f44;
+    text-transform: capitalize;
+}
+
+#service h2{
+    font-size: 32;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    color: #0f2f44;
+}
+
+.serviceinfo h3{
+    color: #222222;
+    font-size: 24;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+.serviceinfo p{
+    color: #444444;
+    font-size: 14;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    width: 110%;
+}
+
+.overlay h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+ /*Service Section End*/
+
+
+
+ /*Portfolio Section Start*/
+ #portfolio{
+    height: 830px;
+    text-align: center;
+    padding-top: 8%;
+ }
+ .container{
+    height: 100%;
+ }
+ .portfolio_item{
+    height: 100%;
+ }
+ #portfolio .portfolioitem img{
+    display: inline;
+ }
+ .portfolio_item{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   
+ 
+ }
+ .portfolio_item .image{
+    padding: 20px 20px;
+ }
+ #portfolio .portfolio_item .secondimage{
+    position: relative;
+ }
+#portfolio .portfolio_item .overlay{
+    
+    
+    position: absolute;
+    transition: .6s;
+    transform: scale(0) rotate(2deg);
+    transform-origin: top right;
+    top: auto;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    padding: 10px 0;
+    
+}
+
+#portfolio .portfolio_item .secondimage:hover .overlay{
+    background-color: white;
+    transform: scale(1);
+    /*box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);*/
+
+}
+#portfolio .portfolio_item .secondimage:hover{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+#portfolio .portfolio_item .overlay h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0f2f44;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#portfolio h6{
+    font-size: 14;
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+    color: #0f2f44;
+    text-transform: capitalize;
+}
+
+#portfolio h2{
+    font-size: 32;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    color: #0f2f44;}
+
+
+#portfolio a{
+    background-color: #ffc712;
+    padding: 12px 15px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0f2f44;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 5%;
+}
+
+    /*Portfolio section End*/
+    #testimonial{
+        height: 440px;
+        background-color: #f5f5f5;
+        text-align: center;
+    }
+    #testimonial .container{
+        padding: 20px 0;
+       
+    }
+#testimonial .container .san{
+    width: 570px;
+    height: 213px;
+    margin-right: 2%;
+    background-color: #e9e9e9;
+    
+    
+}
+#testimonial .container .ran{
+    width: 570px;
+    height: 213px;
+    background-color: #e9e9e9;
+
+}
+
+#testimonial .container img{
+    width: 215px;
+    height: 213px;
+    
+}
+#testimonial .container .bothcontent{
+    width: 355px;
+    height: 213px;
+    padding: 15px 10px;
+    text-align: left;
+}
+
+#testimonial h6{
+    font-size: 14;
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+    color: #0f2f44;
+    text-transform: capitalize;
+    padding-top: 3%;
+}
+
+#testimonial h2{
+    font-size: 32;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    color: #0f2f44;}
+
+#testimonial p{
+    color: #0f2f44;
+    font-size: 14;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.sancontent h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0f2f44;
+    font-family: 'Ubuntu', sans-serif;
+}
+.bothcontent h4{
+    font-size: 10px;
+    font-weight: 300;
+    color: #0f2f44;
+    font-family: 'Ubuntu', sans-serif;
+}
+    /*Testimonial Section Start*/
+
+/*Blog Start*/
+#blogs{
+    height: 885px;
+    padding: 20px 20px;
+
+}
+#blogs img{
+    display: inline;
+    width: 260px;
+    height: 270px;
+}
+#blogs .container{
+    justify-content: center;
+    align-items: center;
+
+}
+.blogone, .blogtwo, .blogthree{
+    width: 313px;
+    height: 410px;
+    background-color: #f5f5f5;
+    margin: 10px 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    
+}
+
+#blogs h5{
+ font-weight: 300;
+ font-size: 14px;
+ color: #777777;
+}
+#blogs p{
+ font-weight: 500;
+ font-size: 20px;
+ color: #222222;
+}
+#blogs a{
+ font-weight: 300;
+ font-size: 16px;
+ color: #777777;
+}
+
+.blog_two{
+    transition: .6s;
+    
+}
+#blogs .blog_two:hover{
+    background-color: #0f2f44;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    
+    
+}
+#blogs .blog_two:hover h5{
+    color: white;
+}
+#blogs .blog_two:hover p{
+    color: white;
+}
+#blogs .blog_two:hover a{
+    color: white;
+}
+/*Blog Section End*/
+
+/*LAst Bizzency SEction*/
+
+#lastsection{
+   background-color: #f5f5f5;
+   box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.74);
+-webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.74);
+-moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.74);
+    
+    height: 398px;
+}
+#lastsection .container{
+    
+    height: 398px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.bizzency{
+    height: 100%;
+   padding-right: 4%;
+    padding-left: 1%;
+    
+}
+/*bizzencyicon*/
+#lastsection .bizzencyicon ul{
+    display: flex;
+}
+#lastsection .bizzencyicon ul li a{
+text-decoration: none;
+list-style-type: none;
+display: inline-block;
+padding-right: 10px;
+cursor: pointer;
+
+}
+#lastsection .bizzencyicon ul li a i{
+    border: solid 1px #0f2f44;
+    font-size: 20px;
+    color: #0f2f44;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    transition: .6s;
+}
+#lastsection .bizzencyicon ul li a:hover i{
+    border: rgb(27, 27, 173) 3px solid;
+}
+.links{
+    height: 100%;
+    
+}
+.contactus{
+    height: 100%;
+}
+
+#lastsection img{
+    width: 170px;
+    height: 40px;
+
+}
+/*bizzency*/
+.bizzency p{
+    width: 260px;
+    font-size: 14px;
+    color:#777777;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.iconimg{
+    width: 30px;
+    height: 5px;
+}
+/*Contact US*/
+.contactus h2{
+    color: #222222;
+    padding-bottom: 5%;
+    font-weight: 500;
+    font-size: 20px;
+}
+.contactus a i {
+    
+    color: #777777;
+    font-size: 24px;
+    
+    
+}
+.contactus p{
+    color: #777777;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 4%;
+}
+.coniconstep{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.mailto a{
+    padding-left: 4%;
+    color: #777777;
+}
+.callto a{
+   
+    color: #777777;
+}
+/*links*/
+.links h2{
+    color: #222222;
+    padding-bottom: 5%;
+    font-weight: 500;
+    font-size: 20px;
+}
+.links a{
+    padding-top: 20px;
+    display: inline-block;
+    color: #0f2f44;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*Footer-The End Section*/
+#endsection{
+    height: 54px;
+}
+#endsection .container{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+#endsection .container p{
+    color: #777777;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+#endsection .container p a{
+    display: inline-block;
+    color: #1e1d1d;
+}
+#endsection .container a{
+    transition: .5s;
+}
+#endsection .container a:hover{
+    color: #ffc712;
+}
+
+
+#bannersecond{
+    background-image: url(../image/mywork.jpg);
+    height: 730px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+#bannersecond::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    opacity: .6;
+    z-index: -1;
+
+}
+
+
+#bannersecond .firststep{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#bannersecond .bannercontent a{
+    padding: 21px 42px;
+    background-color: #cfc91d;
+   
+}
+  #bannersecond .bannercontent h3{
+font-weight: 400;
+font-size: 30px;
+color: white;
+
+
+}
+  #bannersecond .bannercontent h1{
+    font-size: 68px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 30px;
+text-transform: uppercase;}
+
+  #bannersecond .bannercontent p{
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 6%;
+  }
